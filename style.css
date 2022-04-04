@@ -1,0 +1,61 @@
+:root {
+    --violetd: hsl(256, 26%, 20%);
+    --bluegr: hsl(216, 30%, 68%);
+    --violetvd: hsl(270, 9%, 17%);
+    --violetddgr: hsl(273, 4%, 51%);
+    --grayvl: hsl(0, 0%, 98%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+}
+
+
+
+main {
+    font-family: 'Karla', sans-serif;
+}
+
+
+
+
+/* .container-intro {
+    width: 100%;
+} */
+
+.intro {
+    display: block;
+    width: 100%;
+    object-fit: fill;
+}
+
+
+.humanizing {
+    background-image: url(images/bg-pattern-intro-left-mobile.svg);
+}
+
+.desktop {
+    display: none;
+}
+
+
+/* .mobile {
+    display: none;
+} */
