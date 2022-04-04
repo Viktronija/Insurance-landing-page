@@ -49,6 +49,10 @@ main {
 
 .humanizing {
     background-image: url(images/bg-pattern-intro-left-mobile.svg);
+    background-repeat: no-repeat;
+    background-color: var(--violetd);
+    color: white;
+    text-align: center;
 }
 
 .desktop {
